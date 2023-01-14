@@ -1,0 +1,96 @@
+* {
+    font-family: 'Nunito Sans';
+}
+
+body {
+    background: #74959A;
+    /* fallback for old browsers */
+    background: rgb(116, 149, 154);
+    background: linear-gradient(90deg, rgba(116, 149, 154, 1) 0%, rgba(152, 180, 170, 1) 50%);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+.container>h3 {
+    text-align: center;
+}
+
+.container-product {
+    flex-direction: row;
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding: 20px;
+    margin: 50px;
+}
+
+.product-img>img {
+    width: 300px;
+}
+
+.modal-title {
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px
+}
+
+.details {
+    margin-left: 30px;
+}
+
+.product-price>p {
+    font-size: 2rem;
+    color: #E83A14;
+}
+
+.product-price>button {
+    font-size: 20px;
+    margin-top: 0;
+    padding: 10px;
+}
+
+.product-cate-cond,
+.product-stock,
+.product-desc {
+    margin-top: 20px;
+}
+
+.add-to-cart-btn {
+    border-radius: 10px;
+    text-transform: uppercase;
+    outline: 0;
+    background: #74959A;
+    width: 50%;
+    border: 0;
+    margin-top: 30px;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 16px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.add-to-cart-btn:hover,
+.add-to-cart-btn:active,
+.add-to-cart-btn:focus {
+    background: #395B64;
+}
+
+/* buat nengahin svg sama text */
+.svgtxt {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.star-input-wrapper:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,96 @@
+* {
+    font-family: 'Nunito Sans';
+}
+
+body {
+    background: #74959A;
+    /* fallback for old browsers */
+    background: rgb(116, 149, 154);
+    background: linear-gradient(90deg, rgba(116, 149, 154, 1) 0%, rgba(152, 180, 170, 1) 50%);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    background-color: #FFFFFF;
+    margin: auto;
+    width: 67%;
+    margin-top: 3rem;
+    padding: 1rem;
+    border-radius: 25px;
+}
+
+.container-title {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.container-content {
+    color: #FFFFFF;
+}
+
+.wrapper-title {
+    padding-top: 14px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.myorders-container {
+    width: 100%;
+    height: auto;
+    background-color: #92acaf;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.mt-img {
+    max-width: 400px;
+}
+
+.button {
+    margin-top: 64px;
+}
+
+.thumbnail {
+    max-width: 100%;
+    width: 120px;
+    height: auto;
+    margin: 3px;
+}
+
+.info {
+    font-size: 1.125rem;
+}
+
+.id {
+    padding-left: 7px;
+}
+
+.detail {
+    padding-top: 32px;
+}
+
+.btn-primary {
+    background-color: #74959A !important;
+}
+
+.detail>p {
+    margin-right: 32px;
+}
+
+.a_myorders_detail,
+.a_myorders_detail:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.a_myorders_detail:hover {
+    opacity: 90%;
+}
+
+/* sm */
+@media (max-width: 700px) {
+    .mt-img {
+        max-width: 300px;
+    }
+}

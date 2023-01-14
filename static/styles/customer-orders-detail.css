@@ -1,0 +1,95 @@
+* {
+    font-family: 'Nunito Sans';
+}
+
+body {
+    background: #74959A;
+    /* fallback for old browsers */
+    background: rgb(116, 149, 154);
+    background: linear-gradient(90deg, rgba(116, 149, 154, 1) 0%, rgba(152, 180, 170, 1) 50%);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    background-color: #FFFFFF;
+    margin: auto;
+    /* width: 67%; */
+    width: 85%;
+    margin-top: 4rem;
+    padding: 1rem;
+    border-radius: 25px;
+}
+
+.container-title {
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content-container {
+    margin-top: 1rem;
+}
+
+.thumbnail {
+    width: 144px;
+    height: 103px;
+    object-fit: scale-down;
+}
+
+.products {
+    max-height: 600px;
+    overflow-y: scroll;
+}
+
+.product-info {
+    width: 580px;
+}
+
+.product {
+    background-color: whitesmoke;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.product-info>h3 {
+    font-size: large;
+    font-weight: normal;
+
+}
+
+.status {
+    margin-left: 20px;
+    width: 45%;
+}
+
+.product-info>h3:first-child {
+    font-weight: 700;
+}
+
+.wrapper-title {
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+::-webkit-scrollbar {
+    margin-left: 5px;
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #74959A;
+    border-radius: 900px;
+}

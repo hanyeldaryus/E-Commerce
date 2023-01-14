@@ -1,0 +1,141 @@
+* {
+    font-family: 'Nunito Sans';
+}
+
+body {
+    background: #74959A;
+    /* fallback for old browsers */
+    background: rgb(116, 149, 154);
+    background: linear-gradient(90deg, rgba(116, 149, 154, 1) 0%, rgba(152, 180, 170, 1) 50%);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    background-color: #FFFFFF;
+    margin: auto;
+    width: 90%;
+    margin-top: 3rem;
+    padding: 1rem;
+    border-radius: 25px;
+    margin-bottom: 2rem;
+}
+
+.container hr {
+    height: 2px;
+    border-width: 0;
+    color: gray;
+    background-color: gray;
+    width: 100%;
+}
+
+.container .payment-btn {
+    text-align: center;
+}
+
+.container .ringkasan-belanja #pilihkurir {
+    margin-bottom: 10px;
+}
+
+.container-title {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container-title p {
+    margin-bottom: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.cart-product-detail {
+    width: 58%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.ringkasan-belanja {
+    width: 35%;
+    display: inline-block;
+}
+
+.cart-product-detail,
+.ringkasan-belanja {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 1%;
+    margin: 10px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.container .subtotal,
+.ringkasan-belanja,
+.cart-product-detail {
+    /* font-size: calc(12px + (26 - 14) * ((90vw - 150px) / (1600 - 300))); */
+    font-size: 16px;
+}
+
+.keterangan {
+    margin-left: 12px;
+}
+
+.container .subtotal {
+    margin: 5px;
+}
+
+.cart-product-detail img {
+    height: 200px;
+}
+
+.cart-product-detail .keterangan {
+    padding: 0px;
+}
+
+.cart-product-detail img,
+.keterangan {
+    flex: 0 0 40%;
+    margin-bottom: 15px;
+}
+
+.pay,
+.pay:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.tool-tip {
+    display: inline-block;
+    cursor: not-allowed;
+}
+
+.tool-tip [disabled] {
+    pointer-events: none;
+}
+
+@media screen and (max-width: 770px) {
+    .content {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: 10px;
+    }
+
+    .cart-product-detail {
+        width: 80%;
+    }
+
+    .ringkasan-belanja {
+        width: 45%;
+    }
+
+    .cart-product-detail,
+    .ringkasan-belanja {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,79 @@
+* {
+    font-family: 'Nunito Sans';
+}
+
+body {
+    background: #74959A;
+    /* fallback for old browsers */
+    background: rgb(116, 149, 154);
+    background: linear-gradient(90deg, rgba(116, 149, 154, 1) 0%, rgba(152, 180, 170, 1) 50%);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container-fluid {
+    width: 80%;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 45px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#selectgender {
+    display: inline;
+}
+
+.container-fluid .form-title {
+    padding-bottom: 36px;
+    font-size: 2em;
+}
+
+.container-fluid .form-control {
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.container-fluid .form-group {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.container-fluid .btn {
+    background-color: #74959A;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    margin-top: 30px;
+    padding: 10px 50px;
+    font-size: 16px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.container-fluid .btn:hover,
+.container-fluid .btn:active,
+.container-fluid .btn:focus {
+    background-color: #395B64;
+}
+
+.container-fluid .message {
+    margin: 15px 0 0;
+    font-size: 16px;
+}
+
+.container-fluid .message a {
+    color: #74959A;
+    text-decoration: none;
+}
+
+.field-icon {
+    float: right;
+    margin-top: -35px;
+    margin-right: 16px;
+    position: relative;
+    z-index: 2;
+}
